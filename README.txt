@@ -1,15 +1,12 @@
-Οδηγίες εκτέλεσης του αρχείου για τον ταξινομητή Bayes.
+File execution instructions for the Bayes classifier.
 
-1.) Αρχικά πρέπει να φτιάξουμε το λεξιλόγιο μας με τις πιο συνηθισμένες λέξεις.Για να συμβεί αυτό ανοιίγουμε το αρχείο data.py.
-2.) Πρέπει να περάσετε τα input μεσα στο αρχείο διότι όταν τα ζητούσαμε κατά την εκτέλεση του προγράμματος προέκυπταν ακατανόητα σφάλματα.
-   i) Στην συνάρτηση __init__ δώστε στην mostCommonWordsToKeep έναν αριθμό για τις πιο συνηθισμένες λέξεις που θέλουμε να κρατήσουμε.(Υπάρχει σχετικό σχόλιο δίπλα απο την εντολή).
-   ii)Στην συνάρτηηση __init__ δώστε στην mostCommonWordsToDiscard έναν αριθμό που θα δείχνει πόσες απο τις πρώτες πιο συνηθισμένες λέξεις που έχουμε ήδη επιλέξει στο (i) θα απορρίψουμε σύμφωνα με την εκφώνηση(Υπάρχει σχετικό σχόλιο δίπλα απο την εντολή).
-   Τα υποερωτήματα (i) και (ii) έχουν κάποιες προκαθορισμένες τιμές τις οποίες μπορείτε να μην αλλάξετε αν δεν θέλετε.
-   iii)Στην συνάρτηση link δώστε στην url το path που βρίσκεται ο φάκελος με τα δεδομένα απο το Imdb όπως ακριβώς είναι στην προκαθορισμένη τιμή του url.Προσέξτε πως για να δουλέψει πρέπει να βάζετε διπλή κάθετο(\\) μετά απο κάθε φάκελο.Αυτό το βήμα είναι υποχρεωτικο για να τρέξει το αρχείο στον υπολογιστή σας.
-3.)Τώρα για να δημιουργήσουμε την βιβλιοθήκη μας ανοίγουμε το cmd και ακολουθούμε τα εξής βήματα.
-   i)Αφού έχουμε κατεβάσει το φάκελο 3190077_3190074 στα Downloads πηγαίνουμε με cd στα downloads/3190077_3190074/Bayes και πατάμε enter
-   ii)Στην συνέχεια πληκτρολογούμε py data.py και περιμένουμε να ολοκληρωθεί η εκτέλεση.
-4).Τώρα για να τρέξουμε τον ταξηνομητή Bayes με βάση το λεξιλόγιο που έχουμε δημιουργήσει πρέπει απλά να τρέξουμε το αρχείο.Στο σημείο που έχουμε μείνει απο το 3 πληκτρολογουμε py Bayes.py και ακολουθούμε τις οδηγίες που μας εμφανίζονται ανάλογα με το τι θέλουμε να κάνουμε.
+1.) First we need to build our vocabulary with the most common words. For this to happen we open the data.py file.
+2.) You have to pass the inputs in the file because when we asked for them during the execution of the program, incomprehensible errors occurred.
+    i) In the __init__ function give mostCommonWordsToKeep a number for the most common words we want to keep. (There is a relevant comment next to the command).
+    ii) In the __init__ function give mostCommonWordsToDiscard a number that will indicate how many of the first most common words we have already selected in (i) we will discard according to the pronunciation (There is a relevant comment next to the command).
+    Sub-queries (i) and (ii) have some default values which you can not change if you don't want to.
+    iii) In the link function, give the url the path where the folder with the data from Imdb is located exactly as it is in the predefined value of the url. Pay attention that for it to work you must put a double slash (\\) after each folder. This step is mandatory to run the file on your computer.
 
-Note1:Το κάθε αρχείο py απαιτεί 3-4 λεπτά για να τρέξει.
-Note2:Αν στην εκτέλεση του Bayes.py απο το cmd προκύπτει error τρέξτε το απο το idle.
+
+Note1: Each py file takes 3-4 minutes to run.
+Note2: If an error occurs when running Bayes.py from cmd, run it from idle.
